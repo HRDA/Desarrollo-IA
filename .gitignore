@@ -1,0 +1,31 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+/playwright-report/
+/test-results/
+/blob-report/
+
+# local env files
+.env*
+!.env.example
+
+# typescript
+/next-env.d.ts
+*.tsbuildinfo
+
+# vercel
+.vercel
+
+# editor / OS
+.vscode/*
+!.vscode/extensions.json
+.DS_Store
+Thumbs.db
